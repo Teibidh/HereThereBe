@@ -1,0 +1,6 @@
+
+{
+  "Name": "forestmobs.ent",
+  "Registry ID": "forestmobs:ent",
+  "Class": "com.lycanitesmobs.forestmobs.entity.EntityEnt"
+}
