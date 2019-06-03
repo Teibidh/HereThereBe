@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
-    "HILLS",
+    "FOREST",
     "OCEAN",
-    "FOREST"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
