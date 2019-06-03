@@ -1,0 +1,6 @@
+
+{
+  "Name": "swampmobs.ghoulzombie",
+  "Registry ID": "swampmobs:ghoulzombie",
+  "Class": "com.lycanitesmobs.swampmobs.entity.EntityGhoulZombie"
+}

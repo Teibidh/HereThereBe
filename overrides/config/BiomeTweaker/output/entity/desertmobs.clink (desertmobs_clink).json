@@ -1,0 +1,6 @@
+
+{
+  "Name": "desertmobs.clink",
+  "Registry ID": "desertmobs:clink",
+  "Class": "com.lycanitesmobs.desertmobs.entity.EntityClink"
+}
