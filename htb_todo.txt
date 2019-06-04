@@ -1,0 +1,16 @@
+Galacticraft core.conf External Sealable IDs (clear blocks.)
+
+Configure loot for DoomLikeDungeons. Put file in specialChests folder, then change filename in themes\*
+		ebwizardry stuff
+		planet research papers
+
+Update Angel of Vengeance armor/weapon list
+
+astralsorcery\mineralis_ritual.cfg
+             \treasure_shrine.cfg
+			 \fluid_rarities.cfg
+			 \aevitas_ore_perk.cfg
+			 
+			 
+Superior Shields - Disable unused mods.
+

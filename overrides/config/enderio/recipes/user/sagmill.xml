@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+	<recipe name="Sagmill: Magic Crystal" required="false">
+		<sagmilling energy="4800">
+			<input name="oreMagicCrystal"/>
+			<output name="gemMagicCrystal" amount="2"/>
+			<output name="gemMagicCrystal" amount="1" chance=".33"/>
+		</sagmilling>
+	</recipe>
+</enderio:recipes>

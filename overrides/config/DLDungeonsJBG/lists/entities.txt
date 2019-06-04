@@ -193,10 +193,6 @@ astralsorcery:entityshootingstar
 astralsorcery:entityspectraltool
 astralsorcery:entitystarburst
 astralsorcery:entitystardust
-avaritia:endest_pearl
-avaritia:gaping_void
-avaritia:heaven_arrow
-avaritia:heaven_sub_arrow
 bloodmagic:blood_light
 bloodmagic:corrupted_chicken
 bloodmagic:corrupted_sheep
