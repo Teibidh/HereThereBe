@@ -2,7 +2,7 @@
   "itemName": "argustail",
   "loadDefault": true,
   "slotType": "base",
-  "dropMobId": "elementalmobs:argus",
+  "dropMobId": "lycanitesmobs:argus",
   "dropChance": 0.1,
   "levelMin": 1,
   "levelMax": 3,
@@ -13,8 +13,7 @@
     },
     {
       "featureType": "effect",
-      "levelMin": 1,
-      "levelMax": 2,
+      "levelMax": 1,
       "effectType": "lycanitesmobs:instability",
       "effectTarget": "target",
       "effectDuration": 40,
@@ -23,7 +22,7 @@
     {
       "featureType": "effect",
       "levelMin": 2,
-      "levelMax": 3,
+      "levelMax": 2,
       "effectType": "lycanitesmobs:instability",
       "effectTarget": "target",
       "effectDuration": 60,
@@ -40,7 +39,7 @@
     {
       "featureType": "summon",
       "levelMin": 2,
-      "summonMobId": "elementalmobs.argus",
+      "summonMobId": "lycanitesmobs.argus",
       "summonChance": 0.05,
       "summonDuration": 10,
       "summonCountMin": 1,

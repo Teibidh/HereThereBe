@@ -1,6 +1,11 @@
 {
   "name": "erepede",
-  "class": "com.lycanitesmobs.desertmobs.entity.EntityErepede",
+  "creatureType": "arthropod",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityErepede",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelErepede",
   "loadDefault": true,
   "enabled": true,
   "spawning": {
@@ -43,10 +48,10 @@
   "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 0.5,
-  "effect": 5,
-  "amplifier": 0,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 16,
+  "sight": 24,
   "knockbackResistance": 0.25,
   "eggBackColor": "#DD9922",
   "eggForeColor": "#FFDDFF",
@@ -62,7 +67,10 @@
       "type": "uncommon"
     }
   ],
-  "element": "crystal",
+  "element": "gravity",
+  "diets": [
+    "geovore"
+  ],
   "peaceful": false,
   "summonable": false,
   "tameable": true,
@@ -89,7 +97,7 @@
       "chance": 0.25
     },
     {
-      "item": "desertmobs:mudshotcharge",
+      "item": "lycanitesmobs:mudshotcharge",
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 0.5

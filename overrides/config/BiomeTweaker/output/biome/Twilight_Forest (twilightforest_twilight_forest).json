@@ -20,7 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST"
+    "FOREST",
+    "TWILIGHT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -79,48 +80,42 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.lycanitesmobs.forestmobs.entity.EntityArisaur",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityOwl",
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityArisaur",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityConcapedeHead",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityKrake",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Monsters": [
     {
-      "Entity Class": "com.lycanitesmobs.forestmobs.entity.EntityWarg",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.forestmobs.entity.EntityShambler",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.forestmobs.entity.EntityTreant",
-      "Weight": 2,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.forestmobs.entity.EntityCalpod",
-      "Weight": 2,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.forestmobs.entity.EntityEnt",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
@@ -145,6 +140,48 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWarg",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityShambler",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityLurker",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityQuillbeast",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTreant",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityCalpod",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityEnt",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

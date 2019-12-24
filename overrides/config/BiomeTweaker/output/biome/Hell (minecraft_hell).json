@@ -20,14 +20,14 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "NETHER",
     "DRY",
-    "NETHER"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityPinky",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityPinky",
       "Weight": 60,
       "Min Group Count": 1,
       "Max Group Count": 3
@@ -59,6 +59,18 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityLavaCat",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
       "Weight": 3,
       "Min Group Count": 1,
@@ -71,31 +83,37 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "vazkii.quark.world.entity.EntityFoxhound",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "vazkii.quark.world.entity.EntityWraith",
       "Weight": 60,
       "Min Group Count": 4,
       "Max Group Count": 6
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityAstaroth",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityAstaroth",
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityBehemoth",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBehemoth",
       "Weight": 40,
       "Min Group Count": 1,
       "Max Group Count": 3
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityTrite",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTrite",
       "Weight": 80,
       "Min Group Count": 3,
       "Max Group Count": 6
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityBelph",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBelph",
       "Weight": 80,
       "Min Group Count": 1,
       "Max Group Count": 3

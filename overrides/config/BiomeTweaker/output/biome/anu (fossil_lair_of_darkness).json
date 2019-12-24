@@ -1,6 +1,6 @@
 
 {
-  "ID": 77,
+  "ID": 78,
   "Name": "anu",
   "Resource Location": "fossil:lair of darkness",
   "Class": "fossilsarcheology.server.world.FADimensionBiome",
@@ -20,12 +20,19 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
     "NETHER",
     "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityPinky",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntityPigZombie",
       "Weight": 200,
@@ -34,27 +41,31 @@
     },
     {
       "Entity Class": "fossilsarcheology.server.entity.monster.EntitySentryPigman",
-      "Weight": 400,
+      "Weight": 600,
       "Min Group Count": 2,
-      "Max Group Count": 5
+      "Max Group Count": 8
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityPinky",
-      "Weight": 6,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.swampmobs.entity.EntityAspid",
-      "Weight": 16,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 3
-    }
-  ],
-  "Spawnable Monsters": [
+      "Max Group Count": 1
+    },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityBlaze",
       "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityFoxhound",
+      "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
@@ -65,67 +76,25 @@
       "Max Group Count": 6
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityAstaroth",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityAstaroth",
       "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityBehemoth",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBehemoth",
       "Weight": 4,
       "Min Group Count": 1,
       "Max Group Count": 3
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityTrite",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTrite",
       "Weight": 8,
       "Min Group Count": 3,
       "Max Group Count": 6
     },
     {
-      "Entity Class": "com.lycanitesmobs.demonmobs.entity.EntityBelph",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.shadowmobs.entity.EntityGeist",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.swampmobs.entity.EntityGhoulZombie",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.swampmobs.entity.EntityEyewig",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.swampmobs.entity.EntityAglebemu",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.swampmobs.entity.EntityEttin",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.swampmobs.entity.EntityLurker",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.swampmobs.entity.EntityTriffid",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBelph",
       "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3

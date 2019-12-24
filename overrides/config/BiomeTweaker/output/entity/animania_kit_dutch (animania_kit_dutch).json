@@ -2,5 +2,5 @@
 {
   "Name": "animania:kit_dutch",
   "Registry ID": "animania:kit_dutch",
-  "Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitKitDutch"
+  "Class": "com.animania.common.entities.rodents.rabbits.RabbitDutch.EntityRabbitKitDutch"
 }

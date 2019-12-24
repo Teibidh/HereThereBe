@@ -20,10 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "FOREST",
-    "SNOWY",
-    "CONIFEROUS"
+    "TWILIGHT",
+    "COLD",
+    "CONIFEROUS",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -82,16 +83,28 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityYeti",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.forestmobs.entity.EntityArisaur",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityArisaur",
       "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityConcapedeHead",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityKrake",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityYeti",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
@@ -108,16 +121,16 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityWendigo",
-      "Weight": 4,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.forestmobs.entity.EntityCalpod",
-      "Weight": 2,
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWendigo",
+      "Weight": 4,
       "Min Group Count": 1,
-      "Max Group Count": 2
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [

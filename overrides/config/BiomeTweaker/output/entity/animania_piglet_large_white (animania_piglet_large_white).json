@@ -2,5 +2,5 @@
 {
   "Name": "animania:piglet_large_white",
   "Registry ID": "animania:piglet_large_white",
-  "Class": "com.animania.common.entities.pigs.EntityPigletLargeWhite"
+  "Class": "com.animania.common.entities.pigs.PigLargeWhite.EntityPigletLargeWhite"
 }

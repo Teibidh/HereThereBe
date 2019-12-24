@@ -2,5 +2,5 @@
 {
   "Name": "animania:sow_yorkshire",
   "Registry ID": "animania:sow_yorkshire",
-  "Class": "com.animania.common.entities.pigs.EntitySowYorkshire"
+  "Class": "com.animania.common.entities.pigs.PigYorkshire.EntitySowYorkshire"
 }

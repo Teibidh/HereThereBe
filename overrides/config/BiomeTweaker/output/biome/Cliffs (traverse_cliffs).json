@@ -1,6 +1,6 @@
 
 {
-  "ID": 92,
+  "ID": 94,
   "Name": "Cliffs",
   "Resource Location": "traverse:cliffs",
   "Class": "prospector.traverse.world.biomes.BiomeCliffs",
@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
+    "MOUNTAIN",
     "HILLS",
-    "MOUNTAIN"
+    "COLD"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -31,13 +31,13 @@
   },
   "Spawnable Creatures": [
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityYeti",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityYeti",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityYale",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityYale",
       "Weight": 16,
       "Min Group Count": 1,
       "Max Group Count": 3
@@ -93,52 +93,16 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityWendigo",
-      "Weight": 4,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityMaug",
-      "Weight": 4,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntitySerpix",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityFrostweaver",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityBarghest",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityJabberwock",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityTroll",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityWildkin",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
@@ -157,6 +121,54 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBarghest",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWendigo",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityMaug",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntitySerpix",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityJabberwock",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTroll",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWildkin",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityFrostweaver",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

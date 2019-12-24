@@ -2,5 +2,5 @@
 {
   "Name": "animania:calf_angus",
   "Registry ID": "animania:calf_angus",
-  "Class": "com.animania.common.entities.cows.EntityCalfAngus"
+  "Class": "com.animania.common.entities.cows.CowAngus.EntityCalfAngus"
 }

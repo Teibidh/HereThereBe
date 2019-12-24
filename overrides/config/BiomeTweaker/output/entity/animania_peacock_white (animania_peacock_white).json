@@ -2,5 +2,5 @@
 {
   "Name": "animania:peacock_white",
   "Registry ID": "animania:peacock_white",
-  "Class": "com.animania.common.entities.peacocks.EntityPeacockWhite"
+  "Class": "com.animania.common.entities.peacocks.PeafowlWhite.EntityPeacockWhite"
 }

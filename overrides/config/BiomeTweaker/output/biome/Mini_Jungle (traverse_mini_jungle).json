@@ -1,6 +1,6 @@
 
 {
-  "ID": 81,
+  "ID": 83,
   "Name": "Mini Jungle",
   "Resource Location": "traverse:mini_jungle",
   "Class": "prospector.traverse.world.biomes.BiomeMiniJungle",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "JUNGLE",
     "HOT",
-    "WET",
     "DENSE",
-    "JUNGLE"
+    "WET"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -68,8 +68,8 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.lycanitesmobs.junglemobs.entity.EntityConcapedeHead",
-      "Weight": 16,
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityConcapedeHead",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 3
     }
@@ -130,38 +130,62 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.junglemobs.entity.EntityUvaraptor",
-      "Weight": 6,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.junglemobs.entity.EntityDawon",
-      "Weight": 6,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.junglemobs.entity.EntityGeken",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.junglemobs.entity.EntityConba",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.junglemobs.entity.EntityTarantula",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityEnderminy",
       "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityUvaraptor",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityEyewig",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityDawon",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityShambler",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityGeken",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityConba",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTarantula",
+      "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3
     }

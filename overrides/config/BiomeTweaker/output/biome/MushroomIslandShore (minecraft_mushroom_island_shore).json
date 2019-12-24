@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "BEACH",
     "RARE",
-    "MUSHROOM",
-    "BEACH"
+    "MUSHROOM"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -36,18 +36,36 @@
       "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
       "Weight": 8,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.common.entities.cows.EntityCowMooshroom",
+      "Entity Class": "com.animania.common.entities.cows.CowMooshroom$EntityCowMooshroom",
       "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+      "Weight": 2,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityAspid",
+      "Weight": 16,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     }
   ],
   "Spawnable Monsters": [
     {
-      "Entity Class": "com.lycanitesmobs.saltwatermobs.entity.EntityHerma",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityHerma",
       "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3

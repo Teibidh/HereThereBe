@@ -20,21 +20,57 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
-    "SNOWY",
     "WATER",
-    "RIVER"
+    "RIVER",
+    "COLD",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "com.animania.common.entities.amphibians.EntityFrogs",
       "Weight": 16,
-      "Min Group Count": 1,
+      "Min Group Count": 2,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityYeti",
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+      "Weight": 2,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
+      "Weight": 9,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityKrake",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityYeti",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
@@ -108,34 +144,28 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityWendigo",
-      "Weight": 4,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityMaug",
-      "Weight": 4,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntitySerpix",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityFrostweaver",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
@@ -148,6 +178,36 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWendigo",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityMaug",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntitySerpix",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWildkin",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityFrostweaver",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

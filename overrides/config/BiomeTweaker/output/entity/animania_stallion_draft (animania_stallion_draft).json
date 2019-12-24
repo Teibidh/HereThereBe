@@ -2,5 +2,5 @@
 {
   "Name": "animania:stallion_draft",
   "Registry ID": "animania:stallion_draft",
-  "Class": "com.animania.common.entities.horses.EntityStallionDraftHorse"
+  "Class": "com.animania.common.entities.horses.HorseDraft.EntityStallionDraftHorse"
 }

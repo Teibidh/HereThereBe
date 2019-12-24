@@ -1,6 +1,6 @@
 
 {
-  "ID": 99,
+  "ID": 101,
   "Name": "Arid Highland",
   "Resource Location": "traverse:arid_highland",
   "Class": "prospector.traverse.world.biomes.BiomeAridHighland",
@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "HILLS",
     "MOUNTAIN",
     "DRY",
-    "SPARSE"
+    "SPARSE",
+    "HILLS",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -39,7 +39,7 @@
       "Max Group Count": 3
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityYale",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityYale",
       "Weight": 16,
       "Min Group Count": 1,
       "Max Group Count": 3
@@ -101,28 +101,16 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityBarghest",
-      "Weight": 4,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityJabberwock",
-      "Weight": 8,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityTroll",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityWildkin",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
@@ -141,6 +129,30 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBarghest",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityJabberwock",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTroll",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWildkin",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

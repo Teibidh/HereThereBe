@@ -2,5 +2,5 @@
 {
   "Name": "animania:ram_suffolk",
   "Registry ID": "animania:ram_suffolk",
-  "Class": "com.animania.common.entities.sheep.EntityRamSuffolk"
+  "Class": "com.animania.common.entities.sheep.SheepSuffolk.EntityRamSuffolk"
 }

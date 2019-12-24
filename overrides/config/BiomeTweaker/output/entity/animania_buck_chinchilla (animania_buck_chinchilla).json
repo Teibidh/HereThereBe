@@ -2,5 +2,5 @@
 {
   "Name": "animania:buck_chinchilla",
   "Registry ID": "animania:buck_chinchilla",
-  "Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitBuckChinchilla"
+  "Class": "com.animania.common.entities.rodents.rabbits.RabbitChinchilla.EntityRabbitBuckChinchilla"
 }

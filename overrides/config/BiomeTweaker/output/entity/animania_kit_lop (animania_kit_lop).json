@@ -2,5 +2,5 @@
 {
   "Name": "animania:kit_lop",
   "Registry ID": "animania:kit_lop",
-  "Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitKitLop"
+  "Class": "com.animania.common.entities.rodents.rabbits.RabbitLop.EntityRabbitKitLop"
 }

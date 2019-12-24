@@ -2,5 +2,5 @@
 {
   "Name": "animania:peahen_taupe",
   "Registry ID": "animania:peahen_taupe",
-  "Class": "com.animania.common.entities.peacocks.EntityPeafowlTaupe"
+  "Class": "com.animania.common.entities.peacocks.PeafowlTaupe.EntityPeafowlTaupe"
 }

@@ -93,13 +93,25 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.saltwatermobs.entity.EntityHerma",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityHerma",
       "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3

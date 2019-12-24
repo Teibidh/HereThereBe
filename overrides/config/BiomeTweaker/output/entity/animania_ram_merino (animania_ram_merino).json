@@ -2,5 +2,5 @@
 {
   "Name": "animania:ram_merino",
   "Registry ID": "animania:ram_merino",
-  "Class": "com.animania.common.entities.sheep.EntityRamMerino"
+  "Class": "com.animania.common.entities.sheep.SheepMerino.EntityRamMerino"
 }

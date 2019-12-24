@@ -2,5 +2,5 @@
 {
   "Name": "fear",
   "Registry ID": "lycanitesmobs:fear",
-  "Class": "com.lycanitesmobs.core.entity.EntityFear"
+  "Class": "com.lycanitesmobs.core.entity.FearEntity"
 }

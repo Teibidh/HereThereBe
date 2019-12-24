@@ -2,5 +2,5 @@
 {
   "Name": "animania:kid_kinder",
   "Registry ID": "animania:kid_kinder",
-  "Class": "com.animania.common.entities.goats.EntityKidKinder"
+  "Class": "com.animania.common.entities.goats.GoatKinder.EntityKidKinder"
 }

@@ -2,5 +2,5 @@
 {
   "Name": "animania:hog_duroc",
   "Registry ID": "animania:hog_duroc",
-  "Class": "com.animania.common.entities.pigs.EntityHogDuroc"
+  "Class": "com.animania.common.entities.pigs.PigDuroc.EntityHogDuroc"
 }

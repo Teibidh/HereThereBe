@@ -28,7 +28,19 @@
       "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
       "Weight": 8,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+      "Weight": 2,
+      "Min Group Count": 2,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
@@ -99,16 +111,16 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-      "Weight": 3,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.saltwatermobs.entity.EntityHerma",
-      "Weight": 8,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
@@ -121,6 +133,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityHerma",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

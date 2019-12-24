@@ -1,6 +1,6 @@
 
 {
-  "ID": 82,
+  "ID": 84,
   "Name": "Meadow",
   "Resource Location": "traverse:meadow",
   "Class": "prospector.traverse.world.biomes.BiomeMeadow",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "PLAINS",
     "LUSH",
-    "WET",
-    "PLAINS"
+    "WET"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -67,7 +67,13 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.lycanitesmobs.plainsmobs.entity.EntityMaka",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityArisaur",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityMaka",
       "Weight": 16,
       "Min Group Count": 1,
       "Max Group Count": 3
@@ -123,34 +129,16 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.plainsmobs.entity.EntityKobold",
-      "Weight": 8,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.plainsmobs.entity.EntityZoataur",
-      "Weight": 2,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.plainsmobs.entity.EntityQuillbeast",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.plainsmobs.entity.EntityVentoraptor",
-      "Weight": 6,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.plainsmobs.entity.EntityFeradon",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
@@ -175,6 +163,36 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityKobold",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityZoataur",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityQuillbeast",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityVentoraptor",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityFeradon",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

@@ -2,7 +2,7 @@
   "itemName": "ventoraptorskull",
   "loadDefault": true,
   "slotType": "head",
-  "dropMobId": "plainsmobs:ventoraptor",
+  "dropMobId": "lycanitesmobs:ventoraptor",
   "dropChance": 0.2,
   "levelMin": 1,
   "levelMax": 3,
@@ -43,8 +43,7 @@
     },
     {
       "featureType": "effect",
-      "levelMin": 2,
-      "levelMax": 3,
+      "levelMin": 3,
       "effectType": "minecraft:weakness",
       "effectTarget": "target",
       "effectDuration": 60,

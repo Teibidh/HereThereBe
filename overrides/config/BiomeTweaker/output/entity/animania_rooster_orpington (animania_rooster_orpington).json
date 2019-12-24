@@ -2,5 +2,5 @@
 {
   "Name": "animania:rooster_orpington",
   "Registry ID": "animania:rooster_orpington",
-  "Class": "com.animania.common.entities.chickens.EntityRoosterOrpington"
+  "Class": "com.animania.common.entities.chickens.ChickenOrpington.EntityRoosterOrpington"
 }

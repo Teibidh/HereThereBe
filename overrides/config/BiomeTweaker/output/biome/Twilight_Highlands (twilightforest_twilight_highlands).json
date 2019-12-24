@@ -20,8 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "MOUNTAIN",
+    "FOREST",
+    "TWILIGHT",
     "CONIFEROUS"
   ],
   "BiomeManager Entries": {},
@@ -81,72 +82,54 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityYeti",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityYale",
-      "Weight": 16,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityOwl",
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
-    }
-  ],
-  "Spawnable Monsters": [
-    {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityWendigo",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityMaug",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntitySerpix",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.arcticmobs.entity.EntityFrostweaver",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityBarghest",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityJabberwock",
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityArisaur",
       "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityTroll",
-      "Weight": 4,
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityConcapedeHead",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 3
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityWildkin",
-      "Weight": 4,
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityKrake",
+      "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityYeti",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityYale",
+      "Weight": 16,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
@@ -171,6 +154,96 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBarghest",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWendigo",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityMaug",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntitySerpix",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWarg",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityShambler",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityLurker",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityJabberwock",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTroll",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityQuillbeast",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTreant",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWildkin",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityCalpod",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityEnt",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityFrostweaver",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

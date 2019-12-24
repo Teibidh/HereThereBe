@@ -1,6 +1,6 @@
 
 {
-  "ID": 96,
+  "ID": 98,
   "Name": "Lush Hills",
   "Resource Location": "traverse:lush_hills",
   "Class": "prospector.traverse.world.biomes.BiomeLushHills",
@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "LUSH",
     "HILLS",
-    "WET",
-    "SPARSE"
+    "SPARSE",
+    "WET"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -102,6 +102,18 @@
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
       "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

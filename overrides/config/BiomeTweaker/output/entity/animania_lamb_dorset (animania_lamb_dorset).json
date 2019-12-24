@@ -2,5 +2,5 @@
 {
   "Name": "animania:lamb_dorset",
   "Registry ID": "animania:lamb_dorset",
-  "Class": "com.animania.common.entities.sheep.EntityLambDorset"
+  "Class": "com.animania.common.entities.sheep.SheepDorset.EntityLambDorset"
 }

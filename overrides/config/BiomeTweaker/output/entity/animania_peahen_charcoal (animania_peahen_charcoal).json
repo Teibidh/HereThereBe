@@ -2,5 +2,5 @@
 {
   "Name": "animania:peahen_charcoal",
   "Registry ID": "animania:peahen_charcoal",
-  "Class": "com.animania.common.entities.peacocks.EntityPeafowlCharcoal"
+  "Class": "com.animania.common.entities.peacocks.PeafowlCharcoal.EntityPeafowlCharcoal"
 }

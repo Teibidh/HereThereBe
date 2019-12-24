@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -63,55 +63,103 @@
       "Max Group Count": 6
     },
     {
-      "Entity Class": "com.animania.common.entities.pigs.EntitySowHampshire",
+      "Entity Class": "com.animania.common.entities.pigs.PigHampshire$EntitySowHampshire",
       "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.common.entities.chickens.EntityHenPlymouthRock",
+      "Entity Class": "com.animania.common.entities.chickens.ChickenPlymouthRock$EntityHenPlymouthRock",
       "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.common.entities.cows.EntityCowHereford",
+      "Entity Class": "com.animania.common.entities.cows.CowHereford$EntityCowHereford",
       "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.common.entities.cows.EntityCowHighland",
+      "Entity Class": "com.animania.common.entities.cows.CowHighland$EntityCowHighland",
       "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.common.entities.goats.EntityDoeAlpine",
+      "Entity Class": "com.animania.common.entities.goats.GoatAlpine$EntityDoeAlpine",
       "Weight": 6,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.common.entities.goats.EntityDoeKiko",
+      "Entity Class": "com.animania.common.entities.goats.GoatKiko$EntityDoeKiko",
       "Weight": 6,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.common.entities.sheep.EntityEweDorset",
+      "Entity Class": "com.animania.common.entities.sheep.SheepDorset$EntityEweDorset",
       "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeHavana",
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitHavana$EntityRabbitDoeHavana",
       "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
+      "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityYale",
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
+      "Weight": 9,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityYale",
       "Weight": 16,
       "Min Group Count": 1,
       "Max Group Count": 3
@@ -185,34 +233,28 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-      "Weight": 3,
+      "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
+      "Weight": 25,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityBarghest",
-      "Weight": 4,
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
+      "Weight": 40,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityJabberwock",
-      "Weight": 8,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityTroll",
-      "Weight": 4,
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.lycanitesmobs.mountainmobs.entity.EntityWildkin",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 1
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
@@ -231,6 +273,30 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBarghest",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityJabberwock",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityTroll",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityWildkin",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

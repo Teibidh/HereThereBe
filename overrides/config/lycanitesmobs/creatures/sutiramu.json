@@ -1,6 +1,11 @@
 {
   "name": "sutiramu",
-  "class": "com.lycanitesmobs.desertmobs.entity.EntitySutiramu",
+  "creatureType": "arthropod",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySutiramu",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelSutiramu",
   "loadDefault": true,
   "enabled": true,
   "spawning": {
@@ -43,10 +48,10 @@
   "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 1,
-  "effect": 5,
-  "amplifier": 0,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 16,
+  "sight": 24,
   "knockbackResistance": 0,
   "eggBackColor": "#83553b",
   "eggForeColor": "#2c1c0f",
@@ -63,8 +68,13 @@
     }
   ],
   "elements": [
-    "crystal",
+    "gravity",
     "quake"
+  ],
+  "diets": [
+    "carnivore",
+    "insectivore",
+    "frugivore"
   ],
   "peaceful": false,
   "summonable": true,

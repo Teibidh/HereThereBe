@@ -2,5 +2,5 @@
 {
   "Name": "animania:doe_kiko",
   "Registry ID": "animania:doe_kiko",
-  "Class": "com.animania.common.entities.goats.EntityDoeKiko"
+  "Class": "com.animania.common.entities.goats.GoatKiko.EntityDoeKiko"
 }
