@@ -1,6 +1,6 @@
 
 {
-  "ID": 62,
+  "ID": 42,
   "Name": "Ice Wasteland",
   "Resource Location": "auxbiomes:ice_wasteland",
   "Class": "net.coderbot.auxbiomes.biomes.BiomeWasteland",
@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "WASTELAND",
-    "COLD",
-    "SNOWY"
+    "SNOWY",
+    "COLD"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

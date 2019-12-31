@@ -1,6 +1,6 @@
 
 {
-  "ID": 55,
+  "ID": 96,
   "Name": "Fire Swamp",
   "Resource Location": "twilightforest:fire_swamp",
   "Class": "twilightforest.biomes.TFBiomeFireSwamp",
@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "WASTELAND",
     "TWILIGHT",
-    "SWAMP",
-    "HOT"
+    "HOT",
+    "SWAMP"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -106,6 +106,18 @@
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",

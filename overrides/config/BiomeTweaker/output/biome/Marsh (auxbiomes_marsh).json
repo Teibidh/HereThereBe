@@ -1,6 +1,6 @@
 
 {
-  "ID": 60,
+  "ID": 40,
   "Name": "Marsh",
   "Resource Location": "auxbiomes:marsh",
   "Class": "net.coderbot.auxbiomes.biomes.BiomeMarsh",
@@ -120,6 +120,18 @@
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",

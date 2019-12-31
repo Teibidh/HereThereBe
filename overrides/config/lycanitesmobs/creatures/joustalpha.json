@@ -22,7 +22,8 @@
       "sandy",
       "wasteland",
       "mesa",
-      "-cold"
+      "-cold",
+      "-snowy"
     ],
     "spawnWeight": 1,
     "dungeonWeight": 0,

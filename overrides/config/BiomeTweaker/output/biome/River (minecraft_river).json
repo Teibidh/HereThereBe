@@ -26,12 +26,6 @@
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "com.animania.common.entities.amphibians.EntityFrogs",
-      "Weight": 16,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
       "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
       "Weight": 6,
       "Min Group Count": 2,
@@ -134,6 +128,18 @@
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

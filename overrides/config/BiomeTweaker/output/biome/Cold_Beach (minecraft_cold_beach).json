@@ -21,17 +21,11 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "BEACH",
-    "COLD",
-    "SNOWY"
+    "SNOWY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
-    {
-      "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
     {
       "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
       "Weight": 6,
@@ -159,6 +153,18 @@
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",

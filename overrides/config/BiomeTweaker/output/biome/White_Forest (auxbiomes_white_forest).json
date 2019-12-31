@@ -1,6 +1,6 @@
 
 {
-  "ID": 64,
+  "ID": 44,
   "Name": "White Forest",
   "Resource Location": "auxbiomes:white_forest",
   "Class": "net.minecraft.world.biome.BiomeForest",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "FOREST",
+    "SNOWY",
     "HILLS",
     "COLD",
-    "SNOWY"
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

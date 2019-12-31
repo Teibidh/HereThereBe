@@ -32,12 +32,6 @@
       "Max Group Count": 8
     },
     {
-      "Entity Class": "com.animania.common.entities.cows.CowMooshroom$EntityCowMooshroom",
-      "Weight": 8,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
       "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityAspid",
       "Weight": 16,
       "Min Group Count": 1,

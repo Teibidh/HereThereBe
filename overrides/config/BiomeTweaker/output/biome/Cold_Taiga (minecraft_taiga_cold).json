@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "FOREST",
-    "COLD",
     "CONIFEROUS",
-    "SNOWY"
+    "SNOWY",
+    "COLD",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -66,78 +66,6 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.animania.common.entities.rodents.EntityHedgehog",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.pigs.PigOldSpot$EntitySowOldSpot",
-      "Weight": 8,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.pigs.PigLargeWhite$EntitySowLargeWhite",
-      "Weight": 8,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.chickens.ChickenWyandotte$EntityHenWyandotte",
-      "Weight": 8,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.chickens.ChickenRhodeIslandRed$EntityHenRhodeIslandRed",
-      "Weight": 8,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.cows.CowHolstein$EntityCowHolstein",
-      "Weight": 8,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.amphibians.EntityToad",
-      "Weight": 16,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.amphibians.EntityDartFrogs",
-      "Weight": 16,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.sheep.SheepJacob$EntityEweJacob",
-      "Weight": 8,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitCottonail$EntityRabbitDoeCottontail",
-      "Weight": 6,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitNewZealand$EntityRabbitDoeNewZealand",
-      "Weight": 6,
-      "Min Group Count": 2,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitLop$EntityRabbitDoeLop",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 2
     },
     {
       "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
@@ -260,12 +188,6 @@
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
-      "Weight": 25,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
