@@ -8,4 +8,4 @@ This modpack is intended for distribution from CurseForge. https://www.curseforg
 
 Please make sure that your profile, or your client, is set to 4GB RAM for this to run comfortably. It could maybe go lower, but I won't test or support lower than that, it's 2019.
 
-This pack contains a 3rd party mod (actually, 3, but all components of the same package): Galacticraft. Thanks much to the authors and please visit their site https://micdoodle8.com/mods/galacticraft
+This pack contains a 3rd party mod (actually, 3, but all components of the same package): Galacticraft. If you choose to download the modpack from here please note that the modlist file does not include these due to some distribution concerns on the part of the Galacticraft team. These mod files are also not available here, you'll have to get them from https://micdoodle8.com/mods/galacticraft which is where you can also support the authors of these mods.
