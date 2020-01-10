@@ -87,7 +87,7 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:quill",
+      "item": "lycanitesmobs:quillcharge",
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 1

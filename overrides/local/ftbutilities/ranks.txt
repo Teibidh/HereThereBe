@@ -1,0 +1,83 @@
+// For more info visit https://github.com/FTBTeam/FTB-Ranks/wiki
+
+[player]
+default_player_rank: true
+power: 1
+ftbutilities.back.back: false
+ftbutilities.back.home: false
+ftbutilities.back.infinite: false
+ftbutilities.back.respawn: false
+ftbutilities.back.rtp: false
+ftbutilities.back.spawn: false
+ftbutilities.back.tpa: false
+ftbutilities.back.warp: false
+ftbutilities.chunkloader.load_offline: false
+ftbutilities.claims.bypass_limits: false
+ftbutilities.homes.cross_dim: true
+ftbutilities.other_player.claims.claim: false
+ftbutilities.other_player.claims.load: false
+ftbutilities.other_player.claims.see_info: false
+ftbutilities.other_player.claims.unclaim: false
+ftbutilities.other_player.claims.unload: false
+ftbutilities.other_player.heal: false
+ftbutilities.other_player.homes.list: false
+ftbutilities.other_player.homes.teleport: false
+ftbutilities.spawn.cooldown: 60
+ftbutilities.spawn.warmup: 10
+ftbutilities.tpa.cooldown: 60
+ftbutilities.tpa.cross_dim: false
+ftbutilities.tpa.warmup: 10
+ftbutilities.warps.cooldown: 60
+ftbutilities.warps.warmup: 10
+ftbutilities.back.cooldown: 300
+ftbutilities.homes.max: 1
+ftbutilities.homes.warmup: 10
+ftbutilities.back.warmup: 5
+ftbutilities.claims.max_chunks: 9
+ftbutilities.homes.cooldown: 60
+ftbutilities.chunkloader.max_chunks: 2
+
+[vip]
+parent: player
+power: 20
+ftbutilities.chat.name_format: <&bVIP {name}&r>
+ftbutilities.back.back: true
+ftbutilities.back.home: true
+ftbutilities.back.spawn: true
+ftbutilities.back.tpa: true
+ftbutilities.back.warp: true
+ftbutilities.tpa.cross_dim: false
+ftbutilities.chunkloader.load_offline: true
+ftbutilities.spawn.cooldown: 30
+ftbutilities.spawn.warmup: 5
+ftbutilities.tpa.cooldown: 30
+ftbutilities.tpa.warmup: 5
+ftbutilities.warps.cooldown: 30
+ftbutilities.warps.warmup: 5
+ftbutilities.back.cooldown: 150
+ftbutilities.homes.max: 3
+ftbutilities.homes.warmup: 5
+ftbutilities.homes.cooldown: 30
+ftbutilities.back.warmup: 5
+ftbutilities.claims.max_chunks: 81
+ftbutilities.chunkloader.max_chunks: 4
+
+[admin]
+parent: vip
+default_op_rank: true
+power: 100
+ftbutilities.chat.name_format: <&2{name}&r>
+ftbutilities.spawn.cooldown: 0
+ftbutilities.spawn.warmup: 0
+ftbutilities.tpa.cooldown: 0
+ftbutilities.tpa.warmup: 0
+ftbutilities.warps.cooldown: 0
+ftbutilities.warps.warmup: 0
+ftbutilities.back.cooldown: 0
+ftbutilities.homes.max: 0
+ftbutilities.homes.warmup: 0
+ftbutilities.homes.cooldown: 0
+ftbutilities.back.warmup: 0
+ftbutilities.claims.max_chunks: 121
+ftbutilities.chunkloader.max_chunks: 9
++*

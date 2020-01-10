@@ -1,16 +1,21 @@
-Galacticraft core.conf External Sealable IDs (clear blocks.)
 
-Configure loot for DoomLikeDungeons. Put file in specialChests folder, then change filename in themes\*
-		ebwizardry stuff
-		planet research papers
+ToDo:
+Administrative Stuff:
+	*Create some scripts to convert the working Twitch launcher instance to a
+	clean, distributable format removing unmodified config files and other
+	garbage that's generated at run time.
+	
+	*Create some scripts to build a clean server pack. Includes removing client
+	only mods.
+	
 
-Update Angel of Vengeance armor/weapon list
+Mod config:
+	*ebwizardry enchantable item lists
+	*Modify Battletowers chest contents to reflect the intended difficulty.
+	*OreDict everything. Known: Erebus, MCA and Blood Arsenal 
+	*Update Morph-O-Tool whitelist
+	*Add modded ores not already included to Advanced Finders configs.
+	*Make sure we have valid EnderIO recipes for all modded content.
 
-astralsorcery\mineralis_ritual.cfg
-             \treasure_shrine.cfg
-			 \fluid_rarities.cfg
-			 \aevitas_ore_perk.cfg
-			 
-			 
-Superior Shields - Disable unused mods.
-
+Map/world
+	* Figure out how to build and protect a "newbie village" at world creation.

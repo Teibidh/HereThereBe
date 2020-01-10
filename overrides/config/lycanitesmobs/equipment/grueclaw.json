@@ -6,6 +6,9 @@
   "dropChance": 0.1,
   "levelMin": 1,
   "levelMax": 3,
+  "elements": [
+    "shadow"
+  ],
   "features": [
     {
       "featureType": "harvest",
@@ -15,8 +18,7 @@
         3,
         3,
         3
-      ],
-      "harvestRangeLevelMultiplier": 0
+      ]
     },
     {
       "featureType": "damage",

@@ -6,17 +6,31 @@
   "dropChance": 0.1,
   "levelMin": 1,
   "levelMax": 3,
+  "elements": [
+    "fire"
+  ],
   "features": [
     {
       "featureType": "harvest",
+      "levelMax": 1,
       "harvestType": "sword",
       "harvestShape": "block",
       "harvestRange": [
         1,
         1,
         1
-      ],
-      "harvestRangeLevelMultiplier": 0
+      ]
+    },
+    {
+      "featureType": "harvest",
+      "levelMin": 2,
+      "harvestType": "sword",
+      "harvestShape": "block",
+      "harvestRange": [
+        3,
+        3,
+        3
+      ]
     },
     {
       "featureType": "damage",

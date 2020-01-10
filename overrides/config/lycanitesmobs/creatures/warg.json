@@ -65,7 +65,10 @@
       "type": "uncommon"
     }
   ],
-  "element": "lightning",
+  "elements": [
+    "lightning",
+    "fae"
+  ],
   "diets": [
     "carnivore"
   ],

@@ -46,7 +46,7 @@
   "health": 40,
   "defense": 3,
   "armor": 0,
-  "speed": 16,
+  "speed": 28,
   "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,
@@ -96,8 +96,8 @@
     {
       "item": "lycanitesmobs:tundracharge",
       "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 0.75
+      "maxAmount": 3,
+      "chance": 1
     },
     {
       "item": "lycanitesmobs:frostyfur",
