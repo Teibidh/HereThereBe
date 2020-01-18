@@ -9,7 +9,7 @@
   "ignoreDimensions": true,
   "ignoreBiomes": true,
   "ignoreCollision": true,
-  "ignoreLightLevel": true,
+  "ignoreLightLevel": false,
   "ignoreGroupLimit": true,
   "ignoreForgeCanSpawnEvent": true,
   "conditions": [],

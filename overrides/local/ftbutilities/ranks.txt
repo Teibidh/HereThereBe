@@ -67,6 +67,14 @@ parent: vip
 default_op_rank: true
 power: 100
 ftbutilities.chat.name_format: <&2{name}&r>
+ftbutilities.other_player.claims.claim: true
+ftbutilities.other_player.claims.load: true
+ftbutilities.other_player.claims.see_info: true
+ftbutilities.other_player.claims.unclaim: true
+ftbutilities.other_player.claims.unload: true
+ftbutilities.other_player.heal: true
+ftbutilities.other_player.homes.list: true
+ftbutilities.other_player.homes.teleport: true
 ftbutilities.spawn.cooldown: 0
 ftbutilities.spawn.warmup: 0
 ftbutilities.tpa.cooldown: 0

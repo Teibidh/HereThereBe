@@ -11,7 +11,7 @@ bobView:false
 anaglyph3d:false
 maxFps:60
 fboEnable:true
-difficulty:3
+difficulty:2
 fancyGraphics:false
 ao:1
 renderClouds:fast
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -41,9 +41,9 @@ chatScale:1.0
 chatWidth:1.0
 mipmapLevels:0
 forceUnicodeFont:false
-reducedDebugInfo:true
+reducedDebugInfo:false
 useNativeTransport:true
-entityShadows:false
+entityShadows:true
 mainHand:right
 attackIndicator:1
 showSubtitles:false
@@ -51,9 +51,9 @@ realmsNotifications:false
 enableWeakAttacks:false
 autoJump:false
 narrator:0
-tutorialStep:none
-soundCategory_master:0.40
-soundCategory_music:0.30
+tutorialStep:movement
+soundCategory_master:0.6092715
+soundCategory_music:0.3028169
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
