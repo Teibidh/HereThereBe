@@ -2,7 +2,7 @@
   "name": "explosion",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -22,7 +22,7 @@
     },
     {
       "type": "explosion",
-      "chance": 0.2,
+      "chance": 0.04,
       "playerOnly": true,
       "cooldown": 1200
     }

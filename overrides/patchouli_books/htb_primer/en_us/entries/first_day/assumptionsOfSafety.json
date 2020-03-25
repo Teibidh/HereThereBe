@@ -1,0 +1,31 @@
+{
+	"name": "2.Assuming you're safe",
+	"icon": "minecraft:acacia_door",
+	"category": "first_day",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Ok, now that we know you're not going to become a target for a skeleton while you peruse this, let's get started. HereThereBe is a heavyweight modpack, there are over 150 mod files included and with their children, around 180 mods total."
+		},
+		{
+			"type": "text",
+			"text": "Every mod adds at least one thing to Minecraft, some add dozens. HTB features mods that change the way the basic game handles, mods that add things to do, mods that add items you can use to do those things, and even some that are purely cosmetic. We're not actually going to go over every mod in this, just the big/important ones."
+		},
+		{
+			"type": "text",
+			"text": "Each mod that's either worth talking about or that people have a hard time getting started with has a nugget in this book to get you going. In the case of most mods it may be as simple as a one page with an overview of the mod, and another page with a recipe for a book that the mod author created to tell you how to use it. Some mods may require more info because they don't have a book..."
+		},
+		{
+			"type": "text",
+			"text": " or because figuring out how to get started is part of the mod itself. In this case we will give you some hints, but we won't spell out for you how to create the book for Thaumcraft, for example, because that's part of the mod author's intended mini-game. We like mod authors, because we can use their stuff, so we try to respect their wishes and design choices."
+		},
+		{
+			"type": "text",
+			"text": "While we do our best to make sure that all the HTB mods play nicely together, and what we can to either resolve bugs and compatibility issues on our own or by posting bugs and feature requests to mod authors, we're not perfect and neither are (most) of the mod authors. If you encounter something that doesn't work as you believe it should or crashes your game, please use the HTB pack's issues page to report it."
+		},
+		{
+			"type": "text",
+			"text": "The main page for HTB is $(l:https://https://www.curseforge.com/minecraft/modpacks/heretherebe)https://www.curseforge.com/minecraft/modpacks/heretherebe${/l). You can find updates and links to the wiki (which is probably useless) and the issues page referenced earlier there. Now, head back to the beginning of the book and pick a section. We suggest the $(l:day_two)Day Two$(/l) section first."
+		}
+	]
+}

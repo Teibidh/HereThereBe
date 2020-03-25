@@ -1,0 +1,47 @@
+{
+	"name": "1.Survival and change",
+	"icon": "hooked:hook",
+	"category": "day_two",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Modded Minecraft is still Minecraft, but with more and different options. Here is a brief list of some of the types of mods that are included, roughly grouped by how they alter gameplay or what they bring to the table that made them worth adding to HTB."
+		},
+		{
+			"type": "text",
+			"text": "Just Enough Items (probably the most important Minecraft mod ever), More Overlays, Multi-Hotbar, Akashic Tome, Morph-O-Tool, Controlling, HWYLA (Here's What You're Looking At), Fence Jumper, Unifier, ReSound and FTB Utilities are more or less meta-game mods. These provide various tools to make interacting with the world of Minecraftia less burdensome and to provide some extra information not available otherwise."
+		},
+		{
+			"type": "text",
+			"text": "Other mods add things to do to the game. While this list is not comprehensive, some examples are The Erebus, The Twilight Forest, and Roguelike Dungeons. These mods add places to visit or adventures to have. There won't be a lot in this book on those mods aside from a brief description of how to get to the places."
+		},
+		{
+			"type": "text",
+			"text": "Another cateogry of mods adds or modifies mobs to the game. We honestly won't talk about those much as some things are better left discovered on your own. We will say to look out for particles coming off of mobs in the wild. A zombie with gold glowing things coming off of it is not a normal zombie, and care should be used when dealing with it."
+		},
+		{
+			"type": "text",
+			"text": "Inventory management is a huge part of Minecraft, it's even more important with modded MC and absolutely critical in a heavyweight pack like HTB. Having enough vanilla chests, or even double chests, to keep all your crap in this pack is simply unthinkable. Not to mention keeping track of where everything is would be enough to make anyone quit."
+		},
+		{
+			"type": "text",
+			"text": "To address this we've added mods like Refined Storage, Iron Chests, Storage Drawers and Backpacks! in addition to some features of mods such as Quark. You'll need to take advantage of some or all of these mods to avoid being frustrated as you progress through HTB."
+		},
+		{
+			"type": "text",
+			"text": "Finding stuff is cool and exploration is a huge part of Minecraft. Sometimes though you're looking for a needle in a haystack and it can be annoying. Mods like JourneyMap, Waystones, Scannable, Nature's Compass and Scenter can help you out when you're trying to figure out where to go."
+		},
+		{
+			"type": "text",
+			"text": "If you're playing HTB there's a good bet you like some depth to your video gaming. As Minecraft is, at least in our opinion, a great roleplaying game engine, we've added some ways to customize your character. It's worth checking out mods like Improvable Skills, Angel of Vengeance, Genetics Reborn, Level Up! Reloaded and Vampirism to see what you can make your Minecraft character become."
+		},
+		{
+			"type": "text",
+			"text": "The very name of the game, Minecraft, implies a certain amount of work gathering resources. Mining, chopping wood, growing crops, etc to get resources is pivotal to MC, and HTB expands this with mods like Mystical Agriculture, Minions and Ore Excavation can save a ton of time and effort here."
+		},
+		{
+			"type": "text",
+			"text": "Tech and Magic mods cover a broad cateogry of stuff with a lot of overlap but in essence these are mods that alter the game by giving you special tools or abilities that require you to progress through their mod's content to unlock better, faster or more powerful options. EnderIO, Botania, Thaumcraft and Electroblob's Wizardry (not to be confused with Wizardry, which is also included) are some examples of these heavy hitters."
+		}
+	]
+}

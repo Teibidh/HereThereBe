@@ -1,0 +1,15 @@
+{
+	"name": "1.Do you even Minecraft?",
+	"icon": "minecraft:acacia_door",
+	"category": "first_day",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Welcome to your first day in HereThereBe! This book assumes you've been to Minecraftia before and are familiar with some basics of the game. If not,we'd suggest returning to the real world and watching some YouTube videos, reading some guides or socializing and asking a friend."
+		},
+		{
+			"type": "text",
+			"text": "Still here? Great! This book is not a how to on Minecraft; it is a brief on the types of things that are in Here There Be... specifically, the mods. First thing's first, though, you don't want to become zombie food while you read. Go make/dig a shelter, then come back!"
+		}
+	]
+}

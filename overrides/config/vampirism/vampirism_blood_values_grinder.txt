@@ -1,0 +1,13 @@
+// HTB values
+
+fossil:iced_meat=1
+lycanitesmobs:raw_yeti_meat=3
+lycanitesmobs:raw_joust_meat=2
+lycanitesmobs:raw_krake_meat=2
+lycanitesmobs:raw_yale_meat=3
+lycanitesmobs:raw_pinky_meat=3
+lycanitesmobs:raw_concapede_meat=1
+lycanitesmobs:raw_ika_meat=2
+lycanitesmobs:raw_maka_meat=4
+lycanitesmobs:raw_chupacabra_meat=1
+mysticalworld:venison=2

@@ -2,7 +2,7 @@
   "name": "glowstone",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -20,7 +20,7 @@
         "minecraft:glowstone"
       ],
       "blocksListType": "whitelist",
-      "chance": 0.02
+      "chance": 0.004
     }
   ],
   "locations": [

@@ -35,17 +35,18 @@ ftbutilities.homes.warmup: 10
 ftbutilities.back.warmup: 5
 ftbutilities.claims.max_chunks: 9
 ftbutilities.homes.cooldown: 60
-ftbutilities.chunkloader.max_chunks: 2
+ftbutilities.chunkloader.max_chunks: 1
 
 [vip]
 parent: player
 power: 20
-ftbutilities.chat.name_format: <&bVIP {name}&r>
+ftbutilities.chat.name_format: <&b{name}&r>
 ftbutilities.back.back: true
 ftbutilities.back.home: true
 ftbutilities.back.spawn: true
 ftbutilities.back.tpa: true
 ftbutilities.back.warp: true
+ftbutilities.back.respawn: true
 ftbutilities.tpa.cross_dim: false
 ftbutilities.chunkloader.load_offline: true
 ftbutilities.spawn.cooldown: 30
@@ -56,11 +57,18 @@ ftbutilities.warps.cooldown: 30
 ftbutilities.warps.warmup: 5
 ftbutilities.back.cooldown: 150
 ftbutilities.homes.max: 3
-ftbutilities.homes.warmup: 5
+ftbutilities.homes.warmup: 0
 ftbutilities.homes.cooldown: 30
 ftbutilities.back.warmup: 5
-ftbutilities.claims.max_chunks: 81
-ftbutilities.chunkloader.max_chunks: 4
+ftbutilities.claims.max_chunks: 49
+ftbutilities.chunkloader.max_chunks: 3
+
+[poweruser]
+parent: vip
+power: 25
+ftbutilities.chat.name_format: <&3{name}&r>
+command.whitelist: true
+
 
 [admin]
 parent: vip
@@ -75,6 +83,7 @@ ftbutilities.other_player.claims.unload: true
 ftbutilities.other_player.heal: true
 ftbutilities.other_player.homes.list: true
 ftbutilities.other_player.homes.teleport: true
+ftbutilities.chunkloader.load_offline: true
 ftbutilities.spawn.cooldown: 0
 ftbutilities.spawn.warmup: 0
 ftbutilities.tpa.cooldown: 0
@@ -82,7 +91,7 @@ ftbutilities.tpa.warmup: 0
 ftbutilities.warps.cooldown: 0
 ftbutilities.warps.warmup: 0
 ftbutilities.back.cooldown: 0
-ftbutilities.homes.max: 0
+ftbutilities.homes.max: 5
 ftbutilities.homes.warmup: 0
 ftbutilities.homes.cooldown: 0
 ftbutilities.back.warmup: 0

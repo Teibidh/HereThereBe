@@ -2,7 +2,7 @@
   "name": "tree",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -16,7 +16,7 @@
     {
       "type": "tree",
       "onHarvest": false,
-      "chance": 0.01
+      "chance": 0.004
     }
   ],
   "locations": [
